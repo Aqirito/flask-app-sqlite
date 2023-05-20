@@ -4,7 +4,7 @@ from flask import (
 from werkzeug.exceptions import abort
 import json
 
-from app.db import get_db
+from .db import get_db
 
 bp = Blueprint('events', __name__)
 
